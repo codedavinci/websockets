@@ -1,0 +1,24 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "Best practices to develop websockets",
+  "main": "ws.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedavinci/websockets.git"
+  },
+  "keywords": [
+    "websocktes",
+    "ws",
+    "server"
+  ],
+  "author": "Eddie Henrique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codedavinci/websockets/issues"
+  },
+  "homepage": "https://github.com/codedavinci/websockets#readme"
+}
