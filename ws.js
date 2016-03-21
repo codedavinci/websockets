@@ -3,5 +3,17 @@ var wss = new WSServer({port: 3000});
 
 wss.on("connection", function(ws){
    
-    ws.send("You're Online in our chat")
+    ws.on("message", function(message){
+       
+        if(message === 'exit'){
+           ws.close(); 
+        }else{
+            wss.clients.forEach(function(client){
+                client.send(message);
+            });
+        }
+                
+    });
+    
+    ws.send("Welcome to our chat");
 });

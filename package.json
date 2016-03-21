@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/codedavinci/websockets/issues"
   },
-  "homepage": "https://github.com/codedavinci/websockets#readme"
+  "homepage": "https://github.com/codedavinci/websockets#readme",
+  "dependencies": {
+    "ws": "^1.0.1"
+  }
 }
